@@ -1,5 +1,7 @@
 {
-  "name": "knn",
-  "integrations": {},
+  "name": "depre",
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
