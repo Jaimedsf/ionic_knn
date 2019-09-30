@@ -1,56 +1,90 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title style="text-align:center;">
-     DEPRESSÃO: <br> O MAL DO SÉCULO
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Home
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
-<div style="text-align:center;">
-  <img src="https://abrilsaude.files.wordpress.com/2019/07/cerebro-choques-depressao.png?quality=85&strip=info&resize=680,453"/>
-</div>
-
-<ion-card>
-    <div style="text-align:center;">
-        <h1>Um pouco sobre</h1>
-    </div>
-
-      <ion-card-content> 
+    <ion-card class="welcome-card">
+      <img src="https://guiadafarmacia.com.br/wp-content/uploads/2017/10/depressao-mal-do-seculo.jpg" alt="" />
+      <ion-card-header>
+        <ion-card-title>Depressão: o novo mal do século</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+      <div class='paragrafos'>
         A doença mental atinge mais de 300 milhões de pessoas 
         de todas as idades no mundo, segundo a Organização Mundial 
         da Saúde (OMS). No Brasil, a estimativa é que 5,8% da população
         seja afetada pela doença.
+      </div>
       </ion-card-content>
+    </ion-card>
 
+    <ion-card>
       <ion-card-content> 
+        <div class='paragrafos'>
+        Em termos mundiais, estima-se que em 2020 a depressão será a segunda causa de 
+        incapacidade em saúde. De acordo com a Organização Mundial da Saúde (OMS), 
+        pelo menos 300 milhões de pessoas vivem com depressão. Como sintomas da depressão,
+         destacam-se os sentimentos de tristeza, perda e/ou falta de confiança, 
+         visões negativas sobre si e os outros, perda de interesse nas atividades 
+         sociais, no apetite e sono e em casos mais graves, suicídio. 
+         </div>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+    <ion-card-content> 
+        <div class='paragrafos'>
         Depressão (CID 10 – F33) é uma doença psiquiátrica crônica
         e recorrente que produz uma alteração do humor caracterizada 
         por uma tristeza profunda, sem fim, associada a sentimentos de dor,
         amargura, desencanto, desesperança, baixa autoestima e culpa, assim
         como a distúrbios do sono e do apetite.
+        </div>
       </ion-card-content>
+    </ion-card>
 
+    <ion-card>
       <ion-card-content> 
+        <div class='paragrafos'>
         É imprescindível o acompanhamento médico tanto para o diagnóstico 
         quanto para o tratamento adequado.Considerada (OMS) como o "Mal do Século". 
         No sentido patológico, há presença de tristeza, pessimismo, baixa auto-estima,
          que aparecem com freqüência e podem combinar-se entre si.
+         </div>
       </ion-card-content>
+    </ion-card>
 
-      <ion-card-content>
-        A depressão provoca ainda ausência de prazer em coisas que antes faziam 
-        bem e grande oscilação de humor e pensamentos, que podem culminar em 
-        comportamentos e atos suicidas. O tratamento é feito com auxílio médico 
-        profissional, por meio de medicamentos, e acompanhamento terapêutico 
-        conforme cada caso. O apoio da família é fundamental.
-      </ion-card-content>
 
-</ion-card>
 
-<ion-button expand="block" [routerLink]="['/sobre-zung']">
-       Sobre Teste de Zung
-</ion-button>
-
+    <!--
+    <ion-list lines="none">
+      <ion-list-header>
+        <ion-label>Sobre o App</ion-label>
+      </ion-list-header>
+      <ion-item href="https://medium.com/introverso/depress%C3%A3o-uma-vis%C3%A3o-de-dentro-2df617ce32f5">
+        <ion-icon slot="start" color="medium" name="book"></ion-icon>
+        <ion-label>Depressão: uma visão de dentro</ion-label>
+      </ion-item>
+      <ion-item href="https://ionicframework.com/docs/building/scaffolding">
+        <ion-icon slot="start" color="medium" name="build"></ion-icon>
+        <ion-label>Scaffold Out Your App</ion-label>
+      </ion-item>
+      <ion-item href="https://ionicframework.com/docs/layout/structure">
+        <ion-icon slot="start" color="medium" name="grid"></ion-icon>
+        <ion-label>Change Your App Layout</ion-label>
+      </ion-item>
+      <ion-item href="https://ionicframework.com/docs/theming/basics">
+        <ion-icon slot="start" color="medium" name="color-fill"></ion-icon>
+        <ion-label>Theme Your App</ion-label>
+      </ion-item>
+    </ion-list>
+    -->
+    
 </ion-content>
