@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import { Platform } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
+import { Icon } from 'ionicons/dist/types/icon/icon';
 
 @Component({
   selector: 'app-root',
@@ -12,10 +13,16 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 export class AppComponent {
   public appPages = [
     {
-      title: 'Home',
+      title: 'Inicio',
       url: '/home',
-      icon: 'home'
+      icon: 'play'
     },
+    {
+      title: 'Home',
+      url: '/teste-home',
+      icon: 'home'
+    }
+    ,
     {
       title: 'Auto Avaliação',
       url: '/zung',

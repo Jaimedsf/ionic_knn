@@ -1,36 +1,70 @@
-<ion-header translucent>
-      <ion-toolbar>
-        <ion-title>Slides</ion-title>
-      </ion-toolbar>
-    </ion-header>
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
 
-    <ion-content fullscreen padding scroll-y="false">
-      <ion-slides>
+<ion-content>
+    <ion-card class="welcome-card">
+      <img src="https://guiadafarmacia.com.br/wp-content/uploads/2017/10/depressao-mal-do-seculo.jpg" alt="" />
+      <ion-card-header>
+        <ion-card-title>Depressão: o novo mal do século</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+      <div class='paragrafos'>
+        A doença mental atinge mais de 350 milhões de pessoas 
+        de todas as idades no mundo, segundo a Organização Mundial 
+        da Saúde (OMS). No Brasil, a estimativa é que 5,8% da população
+        seja afetada pela doença.
+      </div>
+      </ion-card-content>
+    </ion-card>
 
-        <ion-slide>
-          <img src=""/>
-          <h2>Welcome to the <b>ICA</b></h2>
-          <p>The <b>ionic conference app</b> is a practical preview of the ionic framework in action, and a demonstration of proper code use.</p>
-        </ion-slide>
+    <ion-card>
+    <ion-card-content> 
+        <div class='paragrafos'>
+        Depressão (CID 10 – F33) é uma doença psiquiátrica crônica
+        e recorrente que produz uma alteração do humor caracterizada 
+        por uma tristeza profunda, sem fim, associada a sentimentos de dor,
+        amargura, desencanto, desesperança, baixa autoestima e culpa, assim
+        como a distúrbios do sono e do apetite.
+        </div>
+      </ion-card-content>
+    </ion-card>
 
-        <ion-slide>
-          <img src=""/>
-          <h2>What is Ionic?</h2>
-          <p><b>Ionic Framework</b> is an open source SDK that enables developers to build high quality mobile apps with web technologies like HTML, CSS, and JavaScript.</p>
-        </ion-slide>
 
-        <ion-slide>
-          <img src=""/>
-          <h2>What is Ionic Pro?</h2>
-          <p><b>Ionic Pro</b> is a powerful set of services and features built on top of Ionic Framework that brings a totally new level of app development agility to mobile dev teams.</p>
-        </ion-slide>
+ 
 
-        <ion-slide>
-          <img src=""/>
-          <h2>Ready to Play?</h2>
-          <ion-button fill="clear">Continue <ion-icon slot="end" name="arrow-forward"></ion-icon></ion-button>
-        </ion-slide>
 
-      </ion-slides>
-    </ion-content>
-  </ion-app>
+
+
+    <!--
+    <ion-list lines="none">
+      <ion-list-header>
+        <ion-label>Sobre o App</ion-label>
+      </ion-list-header>
+      <ion-item href="https://medium.com/introverso/depress%C3%A3o-uma-vis%C3%A3o-de-dentro-2df617ce32f5">
+        <ion-icon slot="start" color="medium" name="book"></ion-icon>
+        <ion-label>Depressão: uma visão de dentro</ion-label>
+      </ion-item>
+      <ion-item href="https://ionicframework.com/docs/building/scaffolding">
+        <ion-icon slot="start" color="medium" name="build"></ion-icon>
+        <ion-label>Scaffold Out Your App</ion-label>
+      </ion-item>
+      <ion-item href="https://ionicframework.com/docs/layout/structure">
+        <ion-icon slot="start" color="medium" name="grid"></ion-icon>
+        <ion-label>Change Your App Layout</ion-label>
+      </ion-item>
+      <ion-item href="https://ionicframework.com/docs/theming/basics">
+        <ion-icon slot="start" color="medium" name="color-fill"></ion-icon>
+        <ion-label>Theme Your App</ion-label>
+      </ion-item>
+    </ion-list>
+    -->
+    
+</ion-content>

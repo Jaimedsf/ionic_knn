@@ -1,6 +1,9 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>questionario</ion-title>
+  <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Questionário</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -584,21 +587,13 @@
         </ion-item>
       </ion-radio-group>
 
-
-
-
-
-
-
-
-
-
-
-
-
     </ion-list>
   </ion-card-content>
   </ion-card>
+
+  <ion-button expand="block" [routerLink]="['/']">
+       Resultado
+</ion-button>
 
 
 
