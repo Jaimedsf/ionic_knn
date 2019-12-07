@@ -18,7 +18,12 @@ const routes: Routes = [
   { path: 'zung', loadChildren: './zung/zung.module#ZungPageModule' },
   { path: 'sobre', loadChildren: './sobre/sobre.module#SobrePageModule' },
   { path: 'questionario', loadChildren: './questionario/questionario.module#QuestionarioPageModule' },
-  { path: 'teste-home', loadChildren: './teste-home/teste-home.module#TesteHomePageModule' }
+  { path: 'teste-home', loadChildren: './teste-home/teste-home.module#TesteHomePageModule' },
+  { path: 'teste', loadChildren: './teste/teste.module#TestePageModule' },
+  { path: 'distimia', loadChildren: './distimia/distimia.module#DistimiaPageModule' },
+  { path: 'distancias-euclidianas', loadChildren: './distancias-euclidianas/distancias-euclidianas.module#DistanciasEuclidianasPageModule' },
+  { path: 'resultado', loadChildren: './resultado/resultado.module#ResultadoPageModule' },
+  { path: 'teste-depressao', loadChildren: './teste-depressao/teste-depressao.module#TesteDepressaoPageModule' }
 ];
 
 @NgModule({
